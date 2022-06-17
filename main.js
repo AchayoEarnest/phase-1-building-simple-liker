@@ -5,6 +5,9 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 
+const htmHeart = document.querySelector(".like-glyph");
+
+document.getElementById("likeHeart").addEventListener("click", mimicServerCall)
 
 
 //------------------------------------------------------------------------------
@@ -22,4 +25,5 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
       }
     }, 300);
   });
+  
 }
