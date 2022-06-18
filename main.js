@@ -1,15 +1,14 @@
 // Defining text characters for the empty and full hearts for you to use later.
-const EMPTY_HEART = '♡'
+const EMPTY_HEART = document.querySelector(".like")//'♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
 
-const htmHeart = document.querySelector(".like-glyph");
+const htmlHeart = document.querySelector(".like-glyph");
 
-document.getElementById("likeHeart").addEventListener("click", mimicServerCall)
-
-
+htmlHeart.addEventListener("click", mimicServerCall("")
+.then(()=>{}))
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
 //------------------------------------------------------------------------------
